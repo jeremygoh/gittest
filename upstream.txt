@@ -1,1 +1,5 @@
-Explain what the "usptream" remote is usually used for, in your own words
+An upstream remote is typically used in the situation where you are contributing to an open source project. In such a scenario, you will not have write access to the open source project's repository (typically called the base repo) and will have to "fork it", i.e. create a copy of the open source project's repository which you can read and write to.
+
+You will use your forked repo to do your desired work on the open source project, pushing and pulling to it as necessary.
+
+However, the issue with having a forked repository is that it will not stay up to date with the open source project's base repo. To solve this, you will create an upstream remote for your forked repo, which will allow you to fetch changes from the base repo and merge them with your own changes.
