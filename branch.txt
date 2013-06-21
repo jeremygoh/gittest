@@ -1,1 +1,4 @@
-Explain what a branch is, in your own words
+A branch is essentially a pointer to a commit. Branches are not fundamental to commits (e.g. a commit can exist without being on a branch) but merely facilitate their logical grouping.
+
+The main purpose of a branch is allow you to take divergent approaches for your project files whilst making use of Git's SCM features. An example of when branhes might be used is to separate out dev work from prod work. They can also be used as a way for individuals or groups of individuals who are collaborating on different features of a project to work on the same project and Git repository whilst maintaining the logical separation until such time as they want to merge their changes for live release.
+
