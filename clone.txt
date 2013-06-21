@@ -1,1 +1,7 @@
-Explain what git clone does in your own words
+The command git clone creates a copy of an existing git repository on the target machine (typically that on which the command git clone has been run).
+
+By default, your git clone will have a remote called "origin" which has the path of the original repository (i.e. the repository you cloned from).
+
+Your clone will create a local branch which you can change - "master" - and also local branches which you can't. These latter branches are known as remote branches and reference the state of the relevant branches on the remote.
+
+
